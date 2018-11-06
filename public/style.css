@@ -1,0 +1,31 @@
+ul,
+li {
+    list-style-type: none;
+}
+
+li {
+    padding-left: 2em;
+    text-indent: -2em;
+}
+
+.error {
+    color: red;
+}
+
+.box {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100px;
+    background: grey;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+#input {
+    width: 100%;
+}
